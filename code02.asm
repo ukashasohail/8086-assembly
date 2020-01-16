@@ -1,0 +1,6 @@
+.MODEL SMALL
+
+.DATA 
+
+
+.CODE 

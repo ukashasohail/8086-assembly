@@ -1,0 +1,25 @@
+.MODEL SMALL
+
+.STACK
+
+.DATA 
+
+m DB "Ukasha$";
+
+.CODE
+
+MOV AX, @DATA
+
+MOV DS, AX
+
+MOV AH, 09H
+
+MOV DX, OFFSET m
+
+INT 21H
+
+MOV AH, 4CH
+
+INT 21H
+
+END
